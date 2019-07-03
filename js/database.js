@@ -13,7 +13,8 @@ const refs = [
     "web development" ,
     "mobile development" ,
     "game development" ,
-    "full stack js"
+    "full stack js" ,
+    "data science"
 ]
 
 function getDataAndFilter(trackFilter){
@@ -36,7 +37,7 @@ function getDataAndFilter(trackFilter){
                             {data : "track", value : data[key].course} ,
                             {data : "email" , value : data[key].email} ,
                             {data : "phone" , value : data[key].phone} ,
-                            {data : "submission date" , value : data[key].date}    
+                            {data : "submission date" , value : data[key].data}    
                         ]
                     ))
                 }
