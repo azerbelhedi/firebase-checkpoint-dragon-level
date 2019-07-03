@@ -1,0 +1,170 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+.all{
+    height : 100vh ;
+}
+
+.main{
+    height : 100% ;
+    /* background-color : yellow ; */
+    display : flex ;
+}
+
+.left {
+    width : 60px ;
+    background-color :rgb(255, 255, 255) ;
+    box-shadow: 1px 1px 5px rgb(65, 65, 65) ;
+    overflow: visible ;
+    padding-top : 10% ;
+    overflow: hidden;
+    transition: 1s ;
+    position: fixed;
+    z-index: 2 ;
+    height : 100% ;
+}
+
+.left:hover{
+    width : 300px ;
+    transition: 1s ;
+}
+
+.left:hover .course-name{
+    transition : 2s ;
+    width : 200px;
+}
+
+
+.right{
+    /* background-color : green ; */
+    width : 100% ;
+}
+
+.course-container{
+    height : 50px ; 
+    width : 50px ;
+}
+
+.course{
+    /* background-color : red ; */
+    height : 40px ;
+    width : 40px ;
+    margin : 5px ;
+    transition: 0.8s ;
+    margin-bottom: 20px ;
+}
+
+.course-name{
+    /* background-color: red ; */
+    width : 0 ;
+    height : 20px ;
+    overflow: hidden;
+    padding-top : 15px ;
+    font-weight: bold ;
+    font-family: cursive ;
+    white-space: nowrap;
+    transition: 1s ;
+}
+
+.course-block:hover{
+    cursor: pointer;
+}
+
+.course-block{
+    display: flex ;
+}
+
+.course:hover{ 
+    cursor: pointer;
+}
+
+#web{
+    background-image: url("https://image.flaticon.com/icons/png/512/93/93618.png") ;
+    background-size: cover ;
+}
+
+#data-science{
+    background-image: url("https://www.mllab.ai/wp-content/uploads/2018/01/brain_1.png") ;
+    background-size: cover ;
+}
+
+#game{
+    background-image: url("https://www.redbytes.in/wp-content/uploads/2017/10/unity-69-logo-png-transparent.png") ;
+    background-size: cover ;
+}
+
+#mobile{
+    background-image: url("https://image.flaticon.com/icons/png/512/54/54718.png") ;
+    background-size: cover ;
+}
+
+#all{
+    background-image: url("http://pngimg.com/uploads/earth/earth_PNG30.png") ;
+    background-size: cover ;
+}
+
+
+
+.course-header{
+    position: fixed;
+    top : 0 ;
+    left : 0 ;
+    width : 100% ;
+    background-color : rgb(39, 39, 39) ;
+    box-shadow: 1px 1px 5px black ;
+    z-index: 3 ;
+}
+
+.course-header h1{
+    width : max-content ;
+    margin-left : auto ;
+    margin-right : auto ;
+    color : white ;
+    font-weight : bold ;
+    font-family: cursive ;
+}
+
+
+.students-container{
+    /* background-color : red ; */
+    margin-top : 46px ;
+    margin-left : 0px ;
+    min-height: 560px ;
+    padding-top : 5px ;
+    padding-left : 10px ;
+}
+
+.student{
+    background-color : rgb(243, 243, 243) ;
+    width : 95% ;
+    height : 50px ;
+    box-shadow: 1px 1px 5px gray ;
+    display : flex ;
+    margin-bottom: 5px ;
+    margin-left : 60px ;
+}
+
+.student:hover{
+    cursor: pointer ;
+}
+
+.user-data-block{
+    /* background-color : red ; */
+    margin-left : 10px ;
+    flex : 1 ;
+}
+
+.data-title{
+    color : rgb(0, 121, 190) ;
+    font-family: cursive ;
+    font-size : 15px ;
+}
+
+.data-content{
+    color : black ;
+    font-family: cursive ;
+    font-weight: bold ;
+    font-size: 16px ;
+}
